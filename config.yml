@@ -1,0 +1,24 @@
+# If the user dosn't specify a price, how much:
+price: 20
+
+# What should the next minimum bid be (how much more than the previuos bid is the minimum):
+increment: 5
+
+# How long should auctions last in seconds:
+duration: 300
+
+# How long should users be able to shorten the auction to in seconds:
+shorten: 30
+
+# How many items should a single player be allowed to queue:
+max-queue: 1
+
+# What times should the players be reminded:
+reminders:
+- 60
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1

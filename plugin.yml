@@ -1,0 +1,15 @@
+name: BigAuction
+main: com.jmer05.bigauction.Main
+version: 0.1.4
+authors: [Josh Merlino]
+depends: [Vault]
+commands:
+  auction:
+    usage: /auc <command> [arguments]
+    description: Interact with auctions
+  auc:
+    usage: /auc <command> [arguments]
+    description: Interact with auctions
+  bid:
+    usage: /bid <arguments>
+    description: Bid on a running auction
