@@ -1,6 +1,6 @@
 name: BigAuction
 main: com.jmer05.bigauction.Main
-version: 0.1.4
+version: 0.1.5
 authors: [Josh Merlino]
 depends: [Vault]
 commands:

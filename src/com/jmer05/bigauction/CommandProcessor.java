@@ -39,7 +39,7 @@ public class CommandProcessor {
 				
 				sender.sendMessage("§3Showing Auction Help");
 				sender.sendMessage("§b/auc §3shows information on the running auction");
-				sender.sendMessage("§b/auc cancel §3Removes your auctions from the queue");
+				sender.sendMessage("§b/auc cancel §3Removes your auctions from the queue" + (sender instanceof Player ? "":"§c Not available in the console"));
 				sender.sendMessage("§b/auc hand §a[Starting Bid] §3Auctions off whats in your hand" + (sender instanceof Player ? "":"§c Not available in the console"));
 				sender.sendMessage("§b/auc shorten §3Sets remaining auction time to §b" + main.ftime(main.getConfig().getInt("shorten")));
 				sender.sendMessage("§b/auc preview §3Shows you what the item looks like" + (sender instanceof Player ? "":"§c Not available in the console"));
@@ -283,7 +283,7 @@ public class CommandProcessor {
 				}
 				
 				if(main.RunningAuction.topbid.bidder == player) {
-					sender.sendMessage("§cYou can not bid on your own auction.");
+					sender.sendMessage("§cYou are already winning this auction.");
 					return true;
 				}
 				
