@@ -1,5 +1,5 @@
 # If the user dosn't specify a price, how much:
-price: 20
+price: 100
 
 # What should the next minimum bid be (how much more than the previuos bid is the minimum):
 increment: 5
