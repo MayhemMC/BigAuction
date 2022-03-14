@@ -1,7 +1,7 @@
 # BigAuction
 ### Auction items in chat!
 
-Support Versions: [`1.13`, `1.13.1`, `1.13.2`, `1.14`, `1.14.1`, `1.14.2`, `1.14.3`, `1.14.4`, `1.15`, `1.15.1`, `1.15.2`, `1.16`, `1.16.1`, `1.17`, `1.17.1`, `1.18`, `1.18.1`, `1.18.2`]
+Support Versions: [`1.13.x`, `1.14.x`, `1.15.x`, `1.16.x`, `1.17.x`, `1.18.x`]
 
 ## Commands
 `/auc cancel`: Removes your auctions from the queue.
